@@ -3,12 +3,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="ThemeTest.App">
   <Application.Resources>
+	  <ResourceDictionary x:Name="Default">
+	    <Style x:Key="labelStyle" TargetType="Label">
+	      <Setter Property="TextColor" Value="Green" />
+	    </Style>
+	  </ResourceDictionary>
   </Application.Resources>
-  <ResourceDictionary x:Name="Default">
-    <Style x:Key="labelStyle" TargetType="Label">
-      <Setter Property="TextColor" Value="Green" />
-    </Style>
-  </ResourceDictionary>
   <ResourceDictionary x:Name="Second">
     <Style x:Key="labelStyle" TargetType="Label">
       <Setter Property="TextColor" Value="Yellow" />

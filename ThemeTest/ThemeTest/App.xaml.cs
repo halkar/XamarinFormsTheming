@@ -13,7 +13,6 @@ namespace ThemeTest
         public App()
         {
             InitializeComponent();
-            SetDefaultStyle();
             MainPage = new TestPage();
         }
 
